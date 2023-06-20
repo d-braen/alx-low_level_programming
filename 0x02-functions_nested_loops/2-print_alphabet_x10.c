@@ -5,7 +5,7 @@
  *
  * Return: 0 on complete otherwise 1
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int idx;
 	int a;
