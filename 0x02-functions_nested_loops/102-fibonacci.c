@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** main - print first 50 fibonacci numbers
+/**
+ * main - print first 50 fibonacci numbers
  *
  * Return: 0 on success, non-zero otherwise
  */
@@ -18,7 +19,7 @@ int main(void)
 		printf(", %ld", next);
 		tmp = next;
 		next += current;
-		current = tmp;	
+		current = tmp;
 		i++;
 	}
 
