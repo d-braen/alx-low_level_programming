@@ -2,6 +2,7 @@
 
 /**
  * print_line - prints a line using '-'
+ * @n: length of line
  *
  */
 void print_line(int n)
@@ -19,5 +20,5 @@ void print_line(int n)
 		_putchar('_');
 		i++;
 	}
-			
+	_putchar('\n');	
 }
