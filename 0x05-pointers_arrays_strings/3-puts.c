@@ -9,10 +9,6 @@ void _puts(char *str)
 {
 	int i = 0;
 
-	if (*str == '\0')
-	{
-		return;
-	}
 	while (str[i])
 		_putchar(str[i++]);
 	_putchar('\n');
