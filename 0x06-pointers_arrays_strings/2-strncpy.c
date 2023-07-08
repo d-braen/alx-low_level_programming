@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strnccpy - copies src string to destination string
+ * _strncpy - copies src string to destination string
  * @src: source strings
  * @dest: destination strings
  * @n: number of characters to copy from src
