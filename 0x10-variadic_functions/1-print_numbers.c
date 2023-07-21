@@ -16,7 +16,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		if (i != 0)
+		if (i != 0 && separator)
 			printf("%s", separator);
 		printf("%d", va_arg(ap, int));
 		if (i == (n - 1))
